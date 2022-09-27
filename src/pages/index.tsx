@@ -1,8 +1,18 @@
 import type { NextPage } from 'next'
+import Banner from '../components/Banner'
+import Divider from '../components/Divider'
+import { Header } from '../components/Header'
+import TravelTypes from '../components/TravelTypes'
 
 const Home: NextPage = () => {
+
   return (
-    <div></div>
+    <>
+      <Header />
+      <Banner />
+      <TravelTypes />
+      <Divider />
+    </>
   )
 }
 
