@@ -11,7 +11,7 @@ export default function TravelTypes() {
 
   return (
 
-    <Flex w="100%" align="center" justify="center" mt="20">
+    <Flex w="100%" align="center" justify="center" mt={["2", "2", "20"]}>
       {!isLargeThan992px
         ?
         <Stack>
