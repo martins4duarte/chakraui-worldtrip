@@ -10,7 +10,7 @@ const Home: NextPage = () => {
 
   return (
     <>
-      <Header />
+      <Header isHomePage={true}/>
       <Banner />
       <TravelTypes />
       <Divider />

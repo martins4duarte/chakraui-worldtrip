@@ -11,7 +11,7 @@ import "swiper/css/pagination";
 
 export default function Slider() {
   return (
-    <Flex w="100%" h={["250px", "470px"]} maxW={1320} mx="auto" mt={["5", "10"]} mb={["5", "10"]}>
+    <Flex w="100%" h={["220px", "350px", "470px"]} maxW={1320} mx="auto" mt={["5", "10"]} mb={["5", "10"]}>
       <Swiper
         slidesPerView={1}
         cssMode={true}

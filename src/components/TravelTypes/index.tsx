@@ -17,24 +17,24 @@ export default function TravelTypes() {
         <Stack>
           <SimpleGrid columns={2} spacingX="30px" spacingY='2px' alignItems="center">
             <Box width="100%" height='80px' display="flex" alignItems="center" justifyContent="center">
-              <Text color="yellow.400" fontSize="4xl" mr="2">•</Text>
+              <Text color="yellow" fontSize="4xl" mr="2">•</Text>
               <Text color="gray.700" fontWeight="500" fontSize={20}>vida noturna</Text>
             </Box>
             <Box height='60px' display="flex" alignItems="center" justifyContent="center">
-              <Text color="yellow.400" fontSize="4xl" mr="2">•</Text>
+              <Text color="yellow" fontSize="4xl" mr="2">•</Text>
               <Text color="gray.700" fontWeight="500" fontSize={20}>praia</Text>
             </Box>
             <Box height='60px' display="flex" alignItems="center" justifyContent="center">
-              <Text color="yellow.400" fontSize="4xl" mr="2">•</Text>
+              <Text color="yellow" fontSize="4xl" mr="2">•</Text>
               <Text color="gray.700" fontWeight="500" fontSize={20}>moderno</Text>
             </Box>
             <Box height='60px' display="flex" alignItems="center" justifyContent="center">
-              <Text color="yellow.400" fontSize="4xl" mr="2">•</Text>
+              <Text color="yellow" fontSize="4xl" mr="2">•</Text>
               <Text color="gray.700" fontWeight="500" fontSize={20}>clássico</Text>
             </Box>
           </SimpleGrid>
           <Box height='60px' display="flex" alignItems="center" justifyContent="center">
-            <Text color="yellow.400" fontSize="4xl" mr="2">•</Text>
+            <Text color="yellow" fontSize="4xl" mr="2">•</Text>
             <Text color="gray.700" fontWeight="500" fontSize={20}>e mais...</Text>
           </Box>
         </Stack>

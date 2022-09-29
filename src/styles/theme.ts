@@ -16,6 +16,7 @@ export const theme = extendTheme({
       "50": "#EEEEF2",
     },
     white: "#FFFFFF",
+    yellow: "#FFBA08",
   },
   size: {
     lg: "20px"
@@ -27,7 +28,7 @@ export const theme = extendTheme({
   styles: {
     global: {
       body: {
-        bg: 'white',
+        bg: '#F5F8FA',
       }
     }
   }
